@@ -35,7 +35,7 @@ RUN git config --global user.email toddelewis@gmail.com \
   && git config --global user.name "Todd Lewis" \
   && git config --global core.autocrlf input \
   && git config --global credential.https://github.com.username "telewis" \
-  && git config --global crerdential.helper store
+  && git config --global credential.helper store
 
 EXPOSE 80 443 6443 8000 8080 8443
 
