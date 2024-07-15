@@ -6,7 +6,7 @@ RUN apk update \
   && apk add ansible \
   && apk add nginx \
   && apk add curl bind-tools tcpdump \
-  && apk add doggo \ 
+  && apk add doggo \
   && apk add openssh-client sshpass \
   && apk add openssl \
   && apk add ca-certificates \
