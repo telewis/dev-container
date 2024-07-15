@@ -2,7 +2,7 @@ FROM alpine:3.20.1
 
 RUN apk update \
   && apk add git go python3 rust openjdk11 nodejs npm \
-  && apk add make cargo cargo-make \ 
+  && apk add make cargo cargo-make \
   && apk add ansible \
   && apk add nginx \
   && apk add curl bind-tools tcpdump \
