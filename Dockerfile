@@ -43,5 +43,3 @@ RUN git config --global user.email toddelewis@gmail.com \
   && git config --global credential.helper store
 
 EXPOSE 80 443 6443 8000 8080 8443
-
-ENTRYPOINT ["/usr/local/bin/keepalive.sh"]
